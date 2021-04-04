@@ -108,7 +108,7 @@ class DemoNavbar extends React.Component {
                 </div>
                 <Nav className="navbar-nav-hover align-items-lg-center" navbar>
                   <UncontrolledDropdown nav>
-                    <DropdownToggle nav>
+                    {/* <DropdownToggle nav>
                       <i className="ni ni-ui-04 d-lg-none mr-1" />
                       <span className="nav-link-inner--text">Components</span>
                     </DropdownToggle>
@@ -169,25 +169,25 @@ class DemoNavbar extends React.Component {
                           </Media>
                         </Media>
                       </div>
-                    </DropdownMenu>
+                    </DropdownMenu> */}
                   </UncontrolledDropdown>
                   <UncontrolledDropdown nav>
                     <DropdownToggle nav>
                       <i className="ni ni-collection d-lg-none mr-1" />
-                      <span className="nav-link-inner--text">Examples</span>
+                      <span className="nav-link-inner--text">Menu</span>
                     </DropdownToggle>
                     <DropdownMenu>
-                      <DropdownItem to="/landing-page" tag={Link}>
+                      {/* <DropdownItem to="/landing-page" tag={Link}>
                         Landing
-                      </DropdownItem>
+                      </DropdownItem> */}
                       <DropdownItem to="/profile-page" tag={Link}>
                         Profile
                       </DropdownItem>
-                      <DropdownItem to="/login-page" tag={Link}>
+                      {/* <DropdownItem to="/login-page" tag={Link}>
                         Login
-                      </DropdownItem>
+                      </DropdownItem> */}
                       <DropdownItem to="/register-page" tag={Link}>
-                        Register
+                        Portfolio
                       </DropdownItem>
                     </DropdownMenu>
                   </UncontrolledDropdown>
