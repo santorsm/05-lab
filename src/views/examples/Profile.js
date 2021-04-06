@@ -143,7 +143,7 @@ class Profile extends React.Component {
                     <Row className="justify-content-center">
                       <Col lg="9">
                         <p>
-                        My favorite decisions have been shaped by a relentless curiosity to understand and deconstruct problems. This has allowed me success in delivering strategic initiatives, innovative solutions, and building high-performing teams across diverse settings, including aviation, asset managemnt, and e-commerce.
+                        My favorite decisions have been shaped by a relentless curiosity to understand and deconstruct problems.
                         </p>
                         <a href="#pablo" onClick={e => e.preventDefault()}>
                           Show more
